@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "coursach-oop"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Shtefan <vladimir.shtefan@skyeng.ru>"]
+readme = "README.md"
+packages = [{include = "coursach_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
